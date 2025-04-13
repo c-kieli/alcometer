@@ -3,7 +3,7 @@
 
 short readShort(char* prompt) {
     short value;
-    printf(prompt);
+    printf("%s",prompt);
     scanf_s("%hu",&value);
     return value;
 }
@@ -11,7 +11,7 @@ short readShort(char* prompt) {
 bool readBool(char* prompt) {
     char choice;
 
-    printf(prompt);
+    printf("%s",prompt);
     scanf_s(" %c",&choice);
 
     if (choice == 'm') {
