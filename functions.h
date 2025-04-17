@@ -2,8 +2,8 @@
 #define FUNCTIONS_H
 #include <stdbool.h>
 
-short readShort(char* prompt);
-bool readBool(char* prompt);
-float calculateBloodAlcoholLevel(short weight, short bottles, short hours,bool male);
+short readShort(char*);
+bool readBool(char*);
+float calculateBloodAlcoholLevel(short, short, short,bool);
 
 #endif // FUNCTIONS_H
